@@ -111,13 +111,13 @@ public class MainActivity extends AppCompatActivity implements
                 getString(R.string.preference_pop_value));
 
         if (movieSort.equals(getString(R.string.preference_top_value))){
-                String topRatedMovies = "https://api.themoviedb.org/3/movie/top_rated?api_key=2122d87c84bf8a2e80168dbc32001aca";
+                String topRatedMovies = "https://api.themoviedb.org/3/movie/top_rated?api_key=API_KEY";
                 makeMovieSearchQuery(topRatedMovies);
         }else if (movieSort.equals(R.string.preference_pop_value)) {
-            String popularMovies = "http://api.themoviedb.org/3/movie/popular?api_key=2122d87c84bf8a2e80168dbc32001aca";
+            String popularMovies = "http://api.themoviedb.org/3/movie/popular?api_key=API_KEY";
             makeMovieSearchQuery(popularMovies);
         } else {
-            final String MOVIE_BASE_URL = "https://api.themoviedb.org/3/discover/movie?api_key=2122d87c84bf8a2e80168dbc32001aca";
+            final String MOVIE_BASE_URL = "https://api.themoviedb.org/3/discover/movie?api_key=API_KEY";
             makeMovieSearchQuery(MOVIE_BASE_URL);
         }
         PreferenceManager.getDefaultSharedPreferences(this).registerOnSharedPreferenceChangeListener(this);
