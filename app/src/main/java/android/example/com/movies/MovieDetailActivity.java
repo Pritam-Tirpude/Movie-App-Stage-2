@@ -200,7 +200,7 @@ public class MovieDetailActivity extends AppCompatActivity {
     }
 
     public void setMovieReview() {
-        String movieReviewLink = "http://api.themoviedb.org/3/movie/" + movieId + "/reviews?api_key=2122d87c84bf8a2e80168dbc32001aca";
+        String movieReviewLink = "http://api.themoviedb.org/3/movie/" + movieId + "/reviews?api_key=API_KEY";
         URL movieReviewJSON = NetworkUtils.buildUrl(movieReviewLink);
 
         new ReviewAsyncTask().execute(movieReviewJSON);
@@ -208,7 +208,7 @@ public class MovieDetailActivity extends AppCompatActivity {
     }
 
     public void setMovieTrailer() {
-        String movieTrailerUrl = "https://api.themoviedb.org/3/movie/" + movieId + "/videos?api_key=2122d87c84bf8a2e80168dbc32001aca";
+        String movieTrailerUrl = "https://api.themoviedb.org/3/movie/" + movieId + "/videos?api_key=API_KEY";
         URL movieTrailerJSON = NetworkUtils.buildUrl(movieTrailerUrl);
 
         new TrailerAsyncTask().execute(movieTrailerJSON);
