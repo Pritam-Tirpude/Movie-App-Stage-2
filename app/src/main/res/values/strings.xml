@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+    //Overflow Menu Titles
+    <string name="action_popular">Popular movies</string>
+    <string name="action_top_rated">Top rated</string>
+    <string name="action_favorites">Favorite movies</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_share">Share</string>
+    //DetailActivity Name
+    <string name="detail_activity_name">Movie Details</string>
+
+    //FavoriteActivityName
+    <string name="favorite_activity_name">My Favorites</string>
+    //Error Message
+    <string name="Error_message">Error please try again !</string>
+    <string name="review_trailer_error_msg">No Trailers and Reviews</string>
+
+    <string name="empty_favorite_text">No Favorite Movies</string>
+    <string name="rating">Rating :</string>
+    <string name="release_date">Release Date :</string>
+
+    <string name="thumbnail_image">Thumbnail Image</string>
+    <string name="review_text_label">Reviews</string>
+    <string name="review_text_label_empty">No Reviews</string>
+    <string name="trailer_text_label_empty">No Trailers Available</string>
+    <string name="author_label">Author</string>
+    <string name="trailer_text_label">Trailers</string>
+    <string name="title_activity_settings">Settings</string>
+
+    //Preferences
+    <string name="preference_show_top_label">Top Rated</string>
+    <string name="preference_show_top_key" translatable="false">show_toprated</string>
+
+    <string name="preference_show_pop_label">Popular</string>
+    <string name="preference_show_pop_key" translatable="false">show_popular</string>
+
+
+    <string name="preference_movie_choice_label">Sort Movies</string>
+    <string name="preference_top_label">Top Rated</string>
+    <string name="preference_pop_label">Popular</string>
+    <string name="preference_MyFav_label">My Favorite</string>
+
+    <string name="preference_movie_choice_value" translatable="false">movie_choice</string>
+    <string name="preference_top_value" translatable="false">top_rated</string>
+    <string name="preference_pop_value" translatable="false">popular</string>
+    <string name="preference_MyFav_value" translatable="false">my_favorite</string>
+    
+    
+    <string name="delete_failed">Failed to delete</string>
+    <string name="delete_successful">Removed from list</string>
+</resources>

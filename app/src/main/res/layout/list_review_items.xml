@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/author_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/author_label"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        tools:text="Pritam Tirpude"/>
+
+    <TextView
+        android:id="@+id/review_author_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Pritam Tirpude"/>
+
+    <TextView
+        android:id="@+id/review_content_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        tools:text="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="@string/preference_pop_value"
+        android:entries="@array/array_of_labels"
+        android:entryValues="@array/array_of_keys"
+        android:key="@string/preference_movie_choice_value"
+        android:title="@string/preference_movie_choice_label"
+        />
+</PreferenceScreen>
